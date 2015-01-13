@@ -1,0 +1,35 @@
+{
+  "name": "element-container",
+  "version": "0.0.0",
+  "description": "Wrap dom elements with events and state",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/karma/bin/karma start test/karma.conf.js",
+    "build": "node_modules/.bin/gulp build",
+    "dev": "node_modules/.bin/gulp dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@bitbucket.org:brianium/element-container.git"
+  },
+  "devDependencies": {
+    "browserify": "^8.0.3",
+    "del": "^0.1.3",
+    "events-browserify": "0.0.1",
+    "gulp": "^3.8.10",
+    "gulp-jshint": "^1.9.0",
+    "gulp-rename": "^1.2.0",
+    "gulp-uglify": "^1.0.2",
+    "gulp-util": "^3.0.1",
+    "jasmine-core": "^2.1.3",
+    "jshint-stylish": "^1.0.0",
+    "karma": "^0.12.31",
+    "karma-browserify": "^2.0.0",
+    "karma-jasmine": "^0.3.3",
+    "karma-phantomjs-launcher": "^0.1.4",
+    "lodash": "^2.4.1",
+    "util": "^0.10.3",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.0.0"
+  }
+}
