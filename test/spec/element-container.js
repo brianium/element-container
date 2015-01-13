@@ -1,4 +1,4 @@
-var ElementContainer = require('../../lib');
+var ElementContainer = require('../../');
 
 describe('ElementContainer', function() {
   beforeEach(function() {

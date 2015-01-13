@@ -2,7 +2,7 @@
 
 var EventEmitter = require('events').EventEmitter;
 var util = require('util');
-var events = require('./events');
+var events = require('./lib/events');
 
 /**
  * Set multiple attributes based on object keys.
