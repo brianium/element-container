@@ -9,7 +9,7 @@ var gulp = require('gulp'),
     config = require('../config');
 
 gulp.task('browserify', function() {
-  return browserify('./' + config.src.root + '/index.js')
+  return browserify('./index.js')
     .bundle()
     .pipe(source('board.js'))
     .pipe(buffer())

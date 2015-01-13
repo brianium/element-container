@@ -1,7 +1,7 @@
 'use strict';
 
 var src = {
-  root: 'lib'
+  lib: 'lib'
 };
 
 var dest = {
@@ -13,7 +13,7 @@ module.exports = {
   dist: dest,
   watch: {
     paths: ['js'].reduce(function(paths, ext) {
-      return paths.concat([src.root + '/**/*.' + ext, src.root + '/*.' + ext]);
+      return paths.concat(['./index.js', src.lib + '/*.' + ext]);
     }, [])
   }
 };
